@@ -203,3 +203,50 @@ span{
 .box-content p{
     color: #007185;
 }
+
+/* footer */
+.footer{
+    background-color: #232F3E;
+    flex-wrap: wrap;
+    height: 600px;
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+}
+
+.footer-content{
+    /* width: 30%; */
+    margin-top: 20px;
+    display: flex;
+    padding: 30px;
+}
+
+
+
+.footer-box{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+
+}
+
+@media (max-width: 768px){
+    .footer-content{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.footer-box h3{
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    font-weight: 900;
+    color: #f3f3f3;
+}
+
+.footer-box p{
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+    font-weight: 400px;
+    color: #e2e7e6d6;
+}
